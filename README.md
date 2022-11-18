@@ -4,26 +4,29 @@
 <h1 align="center"> Selamlar,  Q-Network-Testnet Teşvikli Testnet Kurulum rehberi by Hercules - Scannerx
 </h1>
 
+## Gereksinimler 
+| Bileşenler | Gereksinimler | 
+| ------------ | ------------ | 
+| CPU |	1 |
+| RAM	| 3 GB |
+| Storage	| 30 GB SSD |
 
-### Linkler:
+## Linkler:
 
  * [Telegram Yardım Kanalımız](https://t.me/FortaDestek)
  * [Q Netwrok Discord Kanalı](https://discord.gg/b5VXuvXN)
  * [Q Netwrok Twitter Kanalı](https://twitter.com/QBlockchain)
  
-
 ## 🟢 Gerekli notlar:
 ### Explorer:
  * [Explorer](https://explorer.qtestnet.org/)
 ### Faucet:
  * [FAUCET](https://faucet.qtestnet.org/)
  
-
  * Testnet Teşvikli olduğunu söylüyorlar. Sitesinden inceleyebilirsiniz. 
  * ilk işlem testnet-validator/ dizininde yapılması gerekiyor. Diğer kurulumlar ilgili dizinde yapıyoruz.
  * 4 parti kurulumdan oluşuyor Önce Validatör kuruyoruz daha sonra Oracle kurulumu yapıyoruz.
-* `https://rpc.ankr.com/eth_rinkeby` Rinkeby Testnet RPC ekleyeceğiz
-
+ * `https://rpc.ankr.com/eth_rinkeby` Rinkeby Testnet RPC ekleyeceğiz
 
  ## 🟢 Kurulumlar:
 
