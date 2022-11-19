@@ -30,7 +30,7 @@
 
  ## 🟢 Kurulumlar:
 
- * 1 /valitador . <br>
+ * 1 /testnet-valitador . <br>
  * 2 /omnibridge-oracle.  <br>
  * 3 /omnibridge-ui. <br>
  * 4 /omnibridge-alm <br>
@@ -152,7 +152,7 @@ Aşağıdaki yerleri düzenliyoruz;
  - `SIFRE` bölümüne sifrenizi.
  - Son olarak `ctrl x y enter` tuşlayarak dosyayı kaydediyoruz.
 ```
- {<br>
+    {
       "address": "METAMASK_ADRESI",<br>
       "password": "SIFRE",<br>
       "keystoreDirectory": "/data",<br>
@@ -290,24 +290,41 @@ docker-compose up -d
 
 
 # 🟢 Güncelleme
-1- Node'u Durdurma ve Birimi Silme
+🚨 Güncelleme geldiğinde<br />
+🚨 Güncellemeleri kurduğumuz 4 dizinin altında çalışıtıracağız. Bu dizinler şu şekilde olacak.
 
+ - 1. testnet-valitador
+ ```
+   cd  $HOME/testnet-public-tools/testnet-validator/
+ ```
+ - 2. omnibridge-oracle
+ ```   
+   cd  $HOME/testnet-public-tools/omnibridge-oracle/ 
+ ```   
+ - 3. omnibridge-ui
+  ```
+   cd $HOME/testnet-public-tools/omnibridge-ui/
+  ```  
+ - 4. omnibridge-alm
+  ```
+   cd cd  $HOME/testnet-public-tools/omnibridge-alm/
+  ```  
+## Güncelleme Adımları
+
+1- Node'u Durdurma ve Birimi Silme
 ```
 docker-compose down -v
 ```
-<br>
-2- En Son Yapılandırmaları İndirme
 
+2- En Son Yapılandırmaları İndirme
 ```
 git pull
 ```
-<br>
-3- En Son Docker Containerı Çekme (ve üzerine yazma)
 
+3- En Son Docker Containerı Çekme (ve üzerine yazma)
 ```
 docker-compose pull
 ```
-<br>
 
 4- Yeni Yapılandırmalar ile Yeniden Başlatma
 ```
