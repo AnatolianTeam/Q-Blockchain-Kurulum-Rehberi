@@ -4,6 +4,8 @@
 <h1 align="center"> Selamlar,  Q-Network-Testnet Teşvikli Testnet Kurulum rehberi by Hercules - Scannerx
 </h1>
 
+# [Güncelleme 1.2.1](https://github.com/koltigin/Q-Network-Turkce-Kurulum-Rehberi/blob/main/Guncelleme_1.2.1_Validator_Guncellemesi.md): Validador Güncelemesi 
+
 ## Gereksinimler 
 | Bileşenler | Gereksinimler | 
 | ------------ | ------------ | 
