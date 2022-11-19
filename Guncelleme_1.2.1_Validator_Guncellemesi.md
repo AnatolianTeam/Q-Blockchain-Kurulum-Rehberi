@@ -9,11 +9,8 @@ docker-compose up -d
 ```
 
 ## Logları Çalıştırma
-Oluşturduğumuz screen içerisinde logları çalıştıralım.
+Oluşturduğumuz screen içerisine girelim loglar durmuşsa logları çalıştıralım.
 ```
-screen -r SCREEN_ADI
-```
-
-```
+screen -r qnetwork
 docker-compose logs -f --tail "100" 
 ```
