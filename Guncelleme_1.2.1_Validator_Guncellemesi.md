@@ -1,4 +1,4 @@
-# Güncelleme 1: Validator Güncellemesi
+# Güncelleme 1.2.1: Validator Güncellemesi
 
 ## Q Client ve Docker Image Güncellemesi
 ```
