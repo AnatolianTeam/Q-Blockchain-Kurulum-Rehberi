@@ -292,46 +292,7 @@ docker-compose up -d
 
 
 # 🟢 Güncelleme
-🚨 Güncelleme geldiğinde<br />
-🚨 Güncellemeleri kurduğumuz 4 dizinin altında çalışıtıracağız. Bu dizinler şu şekilde olacak.
-
- - 1. testnet-valitador
- ```
-   cd  $HOME/testnet-public-tools/testnet-validator/
- ```
- - 2. omnibridge-oracle
- ```   
-   cd  $HOME/testnet-public-tools/omnibridge-oracle/ 
- ```   
- - 3. omnibridge-ui
-  ```
-   cd $HOME/testnet-public-tools/omnibridge-ui/
-  ```  
- - 4. omnibridge-alm
-  ```
-   cd cd  $HOME/testnet-public-tools/omnibridge-alm/
-  ```  
-## Güncelleme Adımları
-
-1- Node'u Durdurma ve Birimi Silme
-```
-docker-compose down -v
-```
-
-2- En Son Yapılandırmaları İndirme
-```
-git pull
-```
-
-3- En Son Docker Containerı Çekme (ve üzerine yazma)
-```
-docker-compose pull
-```
-
-4- Yeni Yapılandırmalar ile Yeniden Başlatma
-```
-docker-compose up -d
-```
+# [Güncelleme 1.2.1](https://github.com/koltigin/Q-Network-Turkce-Kurulum-Rehberi/blob/main/Guncelleme_1.2.1_Validator_Guncellemesi.md): Validador Güncelemesi 
 
 
 ## 🟢 ip kontrol
